@@ -34,6 +34,10 @@ def menu():
 def contact():
     return render_template('contact.html', is_index=False)
 
+@app.route('/about')
+def about():
+    return render_template('about.html', is_index=False)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
