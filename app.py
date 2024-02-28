@@ -5,6 +5,7 @@
 
 # # Enable minification
 # Minify(app=app, html=True, js=True, cssless=True)
+#test
 
 
 from flask import Flask, render_template, request
