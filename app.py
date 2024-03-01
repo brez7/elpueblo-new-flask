@@ -1,13 +1,3 @@
-# from flask import Flask, render_template
-# from flask_minify import Minify
-
-# app = Flask(__name__)
-
-# # Enable minification
-# Minify(app=app, html=True, js=True, cssless=True)
-#test
-
-
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
