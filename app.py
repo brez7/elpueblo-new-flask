@@ -28,6 +28,10 @@ def contact():
 def about():
     return render_template('about.html', is_index=False)
 
+@app.route('/dd')
+def dd():
+    return render_template('dd.html', is_index=False)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
