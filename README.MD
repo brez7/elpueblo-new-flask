@@ -26,6 +26,7 @@ gcloud run deploy rjb --image gcr.io/upbeat-button-265722/rjb --platform managed
 
 Live Site: 
 https://rjb-fvmy7faymq-uc.a.run.app/
+https://rjb-fvmy7faymq-uc.a.run.app/
 
 LEFTOVERS:
 docker build -t rjb .
